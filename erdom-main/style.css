@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1,5rem;
+}
+
+body {
+    background-image: url('aa.avif');
+    background-size: 100% auto; /* Resmi tam ekran boyutuna sığdır */
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+
+.logo img {
+    width: 60px;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    font-size: 30px;
+    background-color: rgb(97, 97, 97);
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar h4{
+    color: rgba(10, 50, 110, 0.399);;
+    margin: 10px 20px 10px;
+}
+
+.navbar p {
+    margin-right: 20px;
+    color: rgba(10, 50, 110, 0.399);
+    padding: 10px 20px 10px;
+    border-radius: 4px;
+}
+
+.search-bar {
+    width: 30px;
+    height: 40px;
+    margin: 10px 0px 0px;
+    display: flex;
+}
+
+
+.navbar input{
+    width: 500px;
+    height: 45px;
+    margin: 10px 0px 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border-width: 3px;
+    border-color: rgba(91, 0, 0, 0.5);
+}
+
+.navbar p:hover {
+    background-color: rgba(17, 46, 65, 0.5);
+}
+
+.serach-img {
+    display: flex;
+}
+
+.search-img {
+    display: inline-block;
+    border: 2px solid #132430;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0px 0px 0px 10px;
+    
+}
+
+.menu-items {
+    text-align: right;
+    justify-content: center;
+    display: flex;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-3px); }
+    100% { transform: translateY(0); }
+}
+
+.menu-items p {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.menu-items p:hover {
+    animation: bounce 0.5s ease; 
+}
